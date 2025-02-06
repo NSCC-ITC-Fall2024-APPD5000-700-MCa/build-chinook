@@ -19,9 +19,9 @@ jobs:
         if: success() || failure() 
         with:
           name: test-report.html
-          path: ./output/test/
+          path: ./
       - name: Archive code coverage results
         uses: actions/upload-artifact@v4
         with:
           name: code-coverage-report
-          path: output/test/code-coverage.html
+          path: ./code-coverage.html
