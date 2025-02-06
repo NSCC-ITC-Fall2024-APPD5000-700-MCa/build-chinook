@@ -2,7 +2,7 @@
   "name": "finalassignment-phase3-pdushie",
   "version": "1.0.0",
   "description": "<img width=\"200px\" src=\"https://w0244079.github.io/nscc/nscc-jpeg.jpg\">",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
     "test" : "mocha" 
