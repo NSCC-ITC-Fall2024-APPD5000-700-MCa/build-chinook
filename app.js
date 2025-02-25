@@ -23,6 +23,7 @@ app.use(express.static('./_FrontendStarterFiles'));
 app.listen(port, () => {
     console.log("Listening on port "+ port);
 });
+export default app;
 
 // Remember to do a try catch for all db operations
 //delete endpoint, update enpoint, insert endpoint, upload album art endpoint

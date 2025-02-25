@@ -5,7 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "nyc --reporter=lcov --reporter=text-lcov --all -x check-coverage --lines 10 --functions 90 npm run unittest"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +20,10 @@
     "nanoid": "^5.0.9",
     "nodemon": "^3.1.7",
     "nyc": "^17.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "vitest": "^3.0.7"
   }
 }
