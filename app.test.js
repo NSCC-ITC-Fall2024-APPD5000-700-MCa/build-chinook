@@ -31,7 +31,7 @@ describe('Test Express App', () => {
   // Test POST request to /api/artists
   it('should create a new artist', async () => {
     const newArtist = {
-      Name: 'Test Artist'
+      Name: 'Daniel Penny'
     };
     const response = await request(app)
       .post('/api/artists')
