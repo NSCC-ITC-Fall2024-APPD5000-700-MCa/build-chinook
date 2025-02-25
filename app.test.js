@@ -38,7 +38,7 @@ describe('Test Express App', () => {
       .send(newArtist)
       .set('Content-Type', 'application/json');
     expect(response.status).toBe(201);
-    expect(response.body.name).toBe(newArtist.Name);
+    expect(response.body.name).toBe(newArtist.name);
   });
 
   // Test UPDATE (PUT) requests to /api/artists
